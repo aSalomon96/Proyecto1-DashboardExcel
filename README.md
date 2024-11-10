@@ -6,19 +6,36 @@ El proyecto se basa en un analisis descriptivo de una empresa multinacional que 
 
 En lineas generales a la empresa, en el periodo de estudio, le va muy bien, con un margen promedio de ganancia por encima del 40%. 
 
-Se propondran mejoras a tener en cuenta y mercados los cuales atender y que funcionaria muy bien el negocio.
+A medida que avanzaba el análisis exploratorio, se identificó que, según el criterio del analista, sería altamente beneficioso para la empresa considerar una expansión en el mercado de artículos de golf. Esto se debe a la creciente demanda en este sector, su alto potencial de rentabilidad y, especialmente, a la baja participación actual de la empresa en países con una fuerte cultura golfista, lo que presenta una oportunidad de crecimiento significativa.
 
 - **Estructura del Proyecto** 🗂️
 
-**PENDIENTE**
+        ├── VentasProductos_RawData/                    # Datos crudos
+        ├── VentasProductos_KPI_Dashboard/              # Aqui se encuentran los KPI y Dashboard
+        ├── VentasProductos_EDAs_Corr_Covz/             # Analsis Exploratorios, correlacion y covarianza
+        ├── README.md                                   # Descripción del proyecto
 
 - **Instalación y Requisitos** 🛠️
 
-Este se encuentra realizado completamente en Microsoft Excel
+El proyecto está desarrollado íntegramente en Microsoft Excel, por lo que solo se necesita tener acceso a esta herramienta. La versión recomendada es Excel 2016 o superior, para aprovechar las características avanzadas de gráficos y tablas dinámicas.
 
-- **Resultados y Conclusiones** 📊
+- **Resultados y Conclusiones** 🧐
 
-**PENDIENTE**
+La empresa ha logrado un sólido desempeño financiero, con ingresos de 3.775 millones de euros y un margen de ganancia del 41,32% en el periodo de estudio. La compañia se enfoca en el sector de productos para actividades al aire libre, incluyendo principalmente accesorios personales, equipos de camping y artículos de golf, siendo el canal web nuestro principal medio de venta (85% de las ventas totales).
+
+A nivel internacional, contamos con presencia en 21 países, destacándose Estados Unidos como nuestro mercado líder, representando el 17,25% de nuestras ventas, seguido de Japón. En el segmento de golf, los mejores resultados se han obtenido en Estados Unidos, Canadá y Japón, países con un alto número de campos de golf. No obstante, se han identificado oportunidades de crecimiento en paises como el Reino Unido, Australia y Suecia, donde la popularidad del golf y la infraestructura existente presentan un alto potencial de desarrollo de ventas.
+
+La demanda de productos de golf muestra estacionalidad, concentrándose en el primer y segundo trimestre del año, lo que coincide con el inicio de la temporada en el hemisferio norte. Esto permite a los golfistas prepararse para aprovechar el clima cálido, impulsando nuestras ventas de equipos de golf en los meses de primavera y verano.
+
+- **Recomendaciones a hacer para expandir el negocio de golf** 📈
+
+La empresa debería expandir su presencia en mercados clave como Reino Unido, Australia y Suecia. Sabemos que estos países tienen una fuerte cultura golfista, por lo que se enfocarán las campañas de marketing en ellos, trabajando de la mano con tiendas deportivas locales y patrocinando eventos y torneos para fortalecer nuestra marca.
+
+En las tiendas de golf y deportes donde está presente la empresa, se aumentará la variedad de productos más demandados, como Woods e Irons, e introducirá modelos exclusivos y personalizados para satisfacer las necesidades de los golfistas más exigentes. Además, se implementarán promociones cruzadas para incentivar la compra de accesorios junto con los equipos principales, lo que ayudará a aumentar las ventas de categorías menos populares.
+
+Se aprovecharán los primeros trimestres del año (Q1 y Q2), cuando el interés por el golf es más alto, para aumentar el inventario de los productos más demandados y lanzar campañas de marketing pretemporada. En los meses más fríos, durante Q3 y Q4, se ofrecerán packs de invierno con descuentos en productos básicos y accesorios, ideales para prácticas en interiores o como regalos para las fiestas.
+
+La estrategia está diseñada para captar la atención de golfistas en cada momento clave, asegurando que la marca esté presente cuando más la necesitan, y ofreciendo productos y promociones que resuenen con sus pasiones y hábitos de compra.
 
 - **Próximos Pasos** 🔄 
 
@@ -26,7 +43,7 @@ Este se encuentra realizado completamente en Microsoft Excel
 
 - **Contribuciones** 🤝 
 
-    Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor abre un pull request o una issue.
+Las contribuciones son bienvenidas para mejorar este proyecto. Si deseas colaborar, abre un pull request o crea una issue para discutir tus ideas. Se valoran especialmente las contribuciones en las áreas de análisis de datos y visualización.
 
 - **Autores y Agradecimientos** ✒️ 
 
@@ -37,4 +54,4 @@ https://github.com/aSalomon96
 
 mi LinkedIn https://www.linkedin.com/in/agustin-salomon/
 
-Agradecimientos a mis profes Ana y Jeancha
+Agradecimientos especiales a mis profesoras Ana y Jeancha por su apoyo y orientación durante el desarrollo de este proyecto.
