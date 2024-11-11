@@ -1,6 +1,6 @@
-# Proyecto1-DashboardExcel Analisis BBDD Ventas Empresa multinacionl 📊 
+# Proyecto1-DashboardExcel 📊 
 
-- **Descripción del Proyecto**
+- **Descripción del Proyecto** 📝​
 
 El proyecto se basa en un analisis descriptivo de una empresa multinacional que vende al por mayor articulos de camping y actividades recreativas y deportes al aire libre.
 
@@ -19,7 +19,21 @@ A medida que avanzaba el análisis exploratorio, se identificó que, según el c
 
 El proyecto está desarrollado íntegramente en Microsoft Excel, por lo que solo se necesita tener acceso a esta herramienta. La versión recomendada es Excel 2016 o superior, para aprovechar las características avanzadas de gráficos y tablas dinámicas.
 
-- **Resultados y Conclusiones** 🧐
+- **Limpieza de datos**🧹
+
+-    Se identificaron y eliminaron dos filas duplicadas para evitar redundancias en los datos.
+
+-    Para el tratamiento de valores nulos o faltantes en las columnas de revenue y cantidad, se siguió el siguiente proceso:
+
+*Revenue:* Para completar los datos faltantes de revenue, primero se identificó el precio unitario de venta de cada producto en el conjunto de datos de órdenes. Luego, en una nueva hoja llamada "Calculo_medias_nulos", se copió el precio unitario de todos los productos con valores faltantes de revenue.
+
+En esta hoja, se utilizó la función =MEDIANA(D2:D591) para calcular la mediana de los precios unitarios, lo que permitió obtener un valor representativo para cada producto.
+
+Con las medianas calculadas, se empleó una fórmula de búsqueda en la hoja principal (tabla1) para rellenar los valores de revenue faltantes mediante la función =BUSCARV([@Product];'Calculo_medias_nulos'!$A$2:$B$17;2;0). Así, se trajo el precio unitario calculado en la hoja de apoyo para cada producto.
+
+*Cantidad:* Para los valores faltantes en la columna cantidad, se utilizó una regla de tres basada en otra fila que contenía el mismo producto y Gross margin similar. Esto permitió estimar los valores faltantes de manera coherente y consistente, respetando la proporcionalidad entre productos similares.
+
+- **Resultados y Conclusiones** 🕵️‍♂️
 
 La empresa ha logrado un sólido desempeño financiero, con ingresos de 3.775 millones de euros y un margen de ganancia del 41,32% en el periodo de estudio. La compañia se enfoca en el sector de productos para actividades al aire libre, incluyendo principalmente accesorios personales, equipos de camping y artículos de golf, siendo el canal web nuestro principal medio de venta (85% de las ventas totales).
 
@@ -39,7 +53,9 @@ La estrategia está diseñada para captar la atención de golfistas en cada mome
 
 - **Próximos Pasos** 🔄 
 
-**PENDIENTE**
+        - Mejorar en la limpieza de datos, documentar a medida que se fueron haciendo cambios a la base original.
+        - Mejorar en el diseño de dashboards.
+
 
 - **Contribuciones** 🤝 
 
