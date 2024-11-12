@@ -9,6 +9,7 @@ En lineas generales a la empresa, en el periodo de estudio, le va muy bien, con 
 A medida que avanzaba el análisis exploratorio, se identificó que, según el criterio del analista, sería altamente beneficioso para la empresa considerar una expansión en el mercado de artículos de golf. Esto se debe a la creciente demanda en este sector, su alto potencial de rentabilidad y, especialmente, a la baja participación actual de la empresa en países con una fuerte cultura golfista, lo que presenta una oportunidad de crecimiento significativa.
 
 - **Estructura del Proyecto** 🗂️
+
         ├── Presentacion_Project1/                      # Presentacion del proyecto
         ├── VentasProductos_RawData/                    # Datos crudos
         ├── VentasProductos_KPI_Dashboard/              # Aqui se encuentran los KPI y Dashboard
